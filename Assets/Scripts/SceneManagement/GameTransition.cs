@@ -15,6 +15,7 @@ public class GameTransition : MonoBehaviour
 
     void Start()
     {
+        UnityEngine.Random.InitState((int)Time.time);
         string remainingGames = PlayerPrefs.GetString("RemainingGames");
         if (remainingGames == "")
         {
@@ -40,7 +41,7 @@ public class GameTransition : MonoBehaviour
                 }
             }
 
-            PlayerPrefs.SetString("remainingGames", gamesLeft);
+            PlayerPrefs.SetString("RemainingGames", gamesLeft);
             PlayerPrefs.Save();
             StartCoroutine("Transition");
         }
@@ -74,10 +75,11 @@ public class GameTransition : MonoBehaviour
             case '1':
                 SceneManager.LoadScene("BubbleWrap");
                 break;
+            case '2':
+                SceneManager.LoadScene("PewPewScene");
+                break;
                 /*
-            case "2":
-                SceneManager.LoadScene("Platform");
-            case "3":
+            case '3':
                 SceneManager.LoadScene("Shooter");
                 break;
                 */
