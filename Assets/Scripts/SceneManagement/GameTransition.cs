@@ -78,7 +78,7 @@ public class GameTransition : MonoBehaviour
             case "2":
                 SceneManager.LoadScene("Platform");
             case "3":
-                SceneManager.LoadScene("");
+                SceneManager.LoadScene("Shooter");
                 break;
                 */
         }

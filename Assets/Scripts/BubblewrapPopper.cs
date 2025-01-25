@@ -2,7 +2,6 @@ using UnityEngine;
 using System;
 public class BubblewrapPopper : MonoBehaviour
 {
-
     public AudioClip popSound;
 
     public static int bubblesLeft = 0;
@@ -23,14 +22,20 @@ public class BubblewrapPopper : MonoBehaviour
             Instantiate(popped, position, Quaternion.identity);
             popped.gameObject.SetActive(true);
             bubblesLeft -= 1;
-            //Debug.Log("There are" + bubblesLeft + "bubbles to pop");
+            if (bubblesLeft == 0) 
+            {
+                GameObject Timer = GameObject.Find("Timer");
+                GameObject GameOverCanvas = GameObject.Find("GameOver");
+                if (Timer.GetComponent<Timer>().GetFailureStatus())
+                {
+                    GameOverCanvas.GetComponent<MinigameOver>().HandleGame(false);
+                }
+                else
+                {
+                    Timer.GetComponent<Timer>().StopTimer();
+                    GameOverCanvas.GetComponent<MinigameOver>().HandleGame(true);
+                }
+            }
         }
-    }
-    public void Update()
-    {
-        if (bubblesLeft == 0) { 
-            //load next scene! or success scene
-        }
-
     }
 }

@@ -28,7 +28,7 @@ public class Timer : MonoBehaviour
             SetTimerText();
             TimerText.color = Color.red;
             enabled = false;
-            //load fail scene
+            failed = true;
         }
 
         SetTimerText();
@@ -37,7 +37,7 @@ public class Timer : MonoBehaviour
         TimerText.text = currentTime.ToString("0.00");
     }
 
-    public bool GetGameStatus()
+    public bool GetFailureStatus()
     {
         return failed;
     }
