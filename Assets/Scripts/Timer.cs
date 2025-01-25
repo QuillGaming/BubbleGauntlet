@@ -26,6 +26,7 @@ public class Timer : MonoBehaviour
             SetTimerText();
             TimerText.color = Color.red;
             enabled = false;
+            //load fail scene
         }
 
         SetTimerText();
