@@ -15,6 +15,7 @@ public class GameTransition : MonoBehaviour
 
     void Start()
     {
+        UnityEngine.Random.InitState((int)Time.time);
         string remainingGames = PlayerPrefs.GetString("RemainingGames");
         if (remainingGames == "")
         {
@@ -39,6 +40,7 @@ public class GameTransition : MonoBehaviour
                     gamesLeft += remainingGames[j];
                 }
             }
+            Debug.Log(gamesLeft);
 
             PlayerPrefs.SetString("remainingGames", gamesLeft);
             PlayerPrefs.Save();
