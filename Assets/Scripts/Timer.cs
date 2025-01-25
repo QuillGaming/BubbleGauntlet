@@ -12,12 +12,14 @@ public class Timer : MonoBehaviour
     public bool hasLimit;
     public float timerLimit;
 
-    void Start()
-    {
+    private bool failed;
 
+    private void Start()
+    {
+        failed = false;
     }
 
-    void Update()
+    private void Update()
     {
         currentTime -= Time.deltaTime;
 
@@ -33,6 +35,15 @@ public class Timer : MonoBehaviour
     }
     private void SetTimerText() {
         TimerText.text = currentTime.ToString("0.00");
+    }
 
+    public bool GetGameStatus()
+    {
+        return failed;
+    }
+
+    public void StopTimer()
+    {
+        this.enabled = false;
     }
 }
