@@ -8,7 +8,6 @@ public class BubblewrapPopper : MonoBehaviour
     public void Start()
     {
         bubblesLeft = (GameObject.Find("GridGenerator").GetComponent<GenerateGrid>().bubblesToPop) + 2;
-        Debug.Log(bubblesLeft);
     }
 
 

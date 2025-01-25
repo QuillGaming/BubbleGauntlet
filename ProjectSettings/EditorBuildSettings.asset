@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BubbleWrap.unity
     guid: 4b0b40964eddd5b4584c12509a43fa88
+  - enabled: 1
+    path: Assets/Scenes/PewPewScene.unity
+    guid: 4dbfccc554508334d9fa539fd27dc934
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

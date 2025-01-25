@@ -40,9 +40,8 @@ public class GameTransition : MonoBehaviour
                     gamesLeft += remainingGames[j];
                 }
             }
-            Debug.Log(gamesLeft);
 
-            PlayerPrefs.SetString("remainingGames", gamesLeft);
+            PlayerPrefs.SetString("RemainingGames", gamesLeft);
             PlayerPrefs.Save();
             StartCoroutine("Transition");
         }
@@ -76,10 +75,11 @@ public class GameTransition : MonoBehaviour
             case '1':
                 SceneManager.LoadScene("BubbleWrap");
                 break;
+            case '2':
+                SceneManager.LoadScene("PewPewScene");
+                break;
                 /*
-            case "2":
-                SceneManager.LoadScene("Platform");
-            case "3":
+            case '3':
                 SceneManager.LoadScene("Shooter");
                 break;
                 */

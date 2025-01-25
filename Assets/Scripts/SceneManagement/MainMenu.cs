@@ -8,7 +8,7 @@ public class MainMenu : MonoBehaviour
     private AudioSource pop;
     public void StartGame()
     {
-        string games = "01";
+        string games = "012";
         int wins = 0;
         PlayerPrefs.SetString("RemainingGames", games);
         PlayerPrefs.SetInt("Wins", wins);
