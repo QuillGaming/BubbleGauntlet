@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      transparent-bubble-clip-art-creation-creatures-4_0: 8231753182781029544
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
