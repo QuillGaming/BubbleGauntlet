@@ -1,5 +1,6 @@
 using System;
 using JetBrains.Annotations;
+using UnityEditor.PackageManager;
 using UnityEngine;
 using UnityEngine.InputSystem;
 public class ShootyScript : MonoBehaviour
@@ -14,6 +15,7 @@ public class ShootyScript : MonoBehaviour
     public GameObject counterObject;
     [SerializeField]
     public Transform playerAim;
+    public bool playerHit = false;
 
     void Start()
     {
@@ -22,6 +24,12 @@ public class ShootyScript : MonoBehaviour
 
     void Update()
     {
+        if (playerHit) {
+            Debug.Log("playerHit");
+            playerHit = false;
+            counterObject.GetComponent<CounterScript>().Hit = true;
+
+        }
         Vector3 mousePos = Mouse.current.position.ReadValue();
         mousePos = Camera.main.ScreenToWorldPoint(mousePos);
         mousePos.z = 0;

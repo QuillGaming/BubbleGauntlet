@@ -5,20 +5,19 @@ public class CounterScript : MonoBehaviour
 {
     public TextMeshProUGUI TimerText;
     public TextMeshProUGUI CounterText;
-    public int CounterLimit = 100;
-    public int bubblesPopped;
+    public int CounterLimit = 1000;
+    public int bubblesPopped = 0;
     public GameObject GameOverObject;
     public bool Hit = false;
     private void Update()
     {
-        if (Hit) {
+        if (Hit && bubblesPopped <= CounterLimit) {
             Hit = false;
-            bubblesPopped++;
-        }
-        if (Hit && CounterText.text.Length <= CounterLimit) {
+            Debug.Log("Hit");
             CounterText.text += "O";
+            bubblesPopped++;
 
-            if (bubblesPopped == 50 && TimerText.text != "0.00") {
+            if (bubblesPopped == 10 && TimerText.text != "0.00") {
                 GameOverObject.GetComponent<MinigameOver>().HandleGame(true);
             }
         }

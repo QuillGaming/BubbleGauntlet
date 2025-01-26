@@ -9,6 +9,7 @@ public class BubbleDestroy : MonoBehaviour
     public AudioClip pop;
     public AudioSource audioSource;
     public GameObject counterObject;
+    public GameObject playerObject;
 
     void Start()
     {
@@ -18,7 +19,7 @@ public class BubbleDestroy : MonoBehaviour
     {
         //pretend it's always a hit
         if (Input.GetMouseButtonDown(0)) {
-            counterObject.GetComponent<CounterScript>().Hit = true;
+            playerObject.GetComponent<ShootyScript>().playerHit = true;
             audioSource.clip = pop;
             audioSource.Play();
             Debug.Log("Over Bubble.");
