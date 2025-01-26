@@ -368,8 +368,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c86a7490476011f44bcb895eb3c01fe3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  film: {fileID: 0}
-  bubble: {fileID: 0}
+  film: {fileID: 1938530604}
+  bubble: {fileID: 1723905112}
 --- !u!1 &95584033
 GameObject:
   m_ObjectHideFlags: 0
