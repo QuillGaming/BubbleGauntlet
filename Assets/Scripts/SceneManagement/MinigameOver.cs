@@ -14,6 +14,7 @@ public class MinigameOver : MonoBehaviour
     public void HandleGame(bool win)
     {
         Bubble.SetActive(true);
+        Pop.Play();
         if (win)
         {
             int temp = PlayerPrefs.GetInt("Wins");
