@@ -441,6 +441,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &27458669
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -973,6 +974,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &97390388
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1105,7 +1107,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 112407161}
-  - component: {fileID: 112407160}
   - component: {fileID: 112407159}
   m_Layer: 0
   m_Name: BubbleGang
@@ -1169,18 +1170,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &112407160
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 112407158}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff865cb40eccf74d82acd3c721a0e3a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &112407161
 Transform:
   m_ObjectHideFlags: 0
@@ -1656,6 +1645,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &133475418
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1927,6 +1917,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &150639549
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2227,6 +2218,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &181312481
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2585,6 +2577,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &191217366
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3245,6 +3238,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &260909533
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3527,6 +3521,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &274691553
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3798,6 +3793,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &275187194
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4781,6 +4777,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &332233956
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5039,6 +5036,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &344644574
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5850,6 +5848,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &460664392
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6313,6 +6312,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &566626595
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6602,6 +6602,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &595230537
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7034,6 +7035,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &609650246
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7236,6 +7238,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &612052794
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7612,6 +7615,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &625512778
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7814,6 +7818,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &635743873
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8221,6 +8226,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &718688847
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8423,6 +8429,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &748399585
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8781,6 +8788,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &863223977
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9868,6 +9876,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &1037727112
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10226,6 +10235,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &1100609258
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10428,6 +10438,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &1107692310
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11345,6 +11356,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &1197605216
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11616,6 +11628,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &1208980530
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12079,6 +12092,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &1255943865
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12368,6 +12382,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &1294827057
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12813,6 +12828,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &1309106841
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13015,6 +13031,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &1318005155
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13478,6 +13495,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &1379091592
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -14294,6 +14312,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &1431328476
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -14813,6 +14832,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &1496503383
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15190,6 +15210,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &1520485670
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15671,6 +15692,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &1577182170
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16695,6 +16717,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &1715498265
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19398,6 +19421,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &1730575095
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19656,6 +19680,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &1751219985
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19722,11 +19747,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6688635420470760338, guid: 57a8844b05eb70f4781eed16d38b3903, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -105
       objectReference: {fileID: 0}
     - target: {fileID: 6688635420470760338, guid: 57a8844b05eb70f4781eed16d38b3903, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 100
+      value: -34
       objectReference: {fileID: 0}
     - target: {fileID: 8778082516821136796, guid: 57a8844b05eb70f4781eed16d38b3903, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19945,6 +19970,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &1779158320
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -20556,6 +20582,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &1805264935
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -20827,6 +20854,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &1808676484
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -21003,6 +21031,7 @@ MonoBehaviour:
   playerShot: {fileID: 242650322}
   counterObject: {fileID: 248555897}
   playerAim: {fileID: 1702684651}
+  playerHit: 0
 --- !u!114 &1815907741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21439,6 +21468,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &1828786518
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -21761,6 +21791,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &1867511826
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -21963,6 +21994,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &1891543059
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -22457,6 +22489,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &1927457993
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -23007,6 +23040,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &1982694232
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -23352,6 +23386,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &1984635795
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -23641,6 +23676,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &1994228023
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -23843,6 +23879,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &2019750585
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24723,6 +24760,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &2080643692
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24994,6 +25032,7 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+  playerObject: {fileID: 1815907738}
 --- !u!58 &2083355824
 CircleCollider2D:
   m_ObjectHideFlags: 0
