@@ -11,12 +11,14 @@ public class CounterScript : MonoBehaviour
     public bool Hit = false;
     private void Update()
     {
-        if (Hit && CounterText.text.Length <= CounterLimit) {
+        if (Hit) {
             Hit = false;
-            CounterText.text += "O";
             bubblesPopped++;
+        }
+        if (Hit && CounterText.text.Length <= CounterLimit) {
+            CounterText.text += "O";
 
-            if (bubblesPopped == 10 && TimerText.text != "0.00") {
+            if (bubblesPopped == 50 && TimerText.text != "0.00") {
                 GameOverObject.GetComponent<MinigameOver>().HandleGame(true);
             }
         }

@@ -29,14 +29,9 @@ public class ShootyScript : MonoBehaviour
 
         if (Mouse.current.leftButton.IsPressed()) {
             //projectile stuff here
-            GameObject newShot = Instantiate(playerShot);
-            newShot.transform.position = playerAim.position;
-            //newShot.GetComponent<playerShot>().shot = true;
-            newShot.transform.up = mousePos - this.transform.position;
-
-            //pretend it's always a hit
-            counterObject.GetComponent<CounterScript>().Hit = true;
-            Debug.Log("true");
+            // GameObject newShot = Instantiate(playerShot);
+            // newShot.transform.position = playerAim.position;
+            // newShot.transform.up = mousePos - this.transform.position;
             //play sfx
             audioSource.clip = pewpew;
             audioSource.Play();
