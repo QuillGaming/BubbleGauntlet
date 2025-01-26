@@ -116,7 +116,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Bubble: {fileID: 8828238536382013025}
-  Text: {fileID: 2912820833000218785}
+  Text: {fileID: 793898344656089294}
+  Pop: {fileID: 0}
 --- !u!1 &2912820833000218785
 GameObject:
   m_ObjectHideFlags: 0
