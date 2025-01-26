@@ -2800,7 +2800,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 2142671781
+  m_SortingLayerID: 54203795
   m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 3170013205796022284, guid: c54d9721a21b65d4ca941668239eed87, type: 3}
@@ -6766,11 +6766,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 556190763dcf3b14ea6c4e4fb23fcbc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pewpew: {fileID: 8300000, guid: b18f4575abec3e14f8f6cf7a00a7555c, type: 3}
-  audioSource: {fileID: 0}
-  playerShot: {fileID: 242650322}
-  counterObject: {fileID: 248555897}
-  playerAim: {fileID: 1702684651}
+  pewpew: {fileID: 0}
 --- !u!114 &1815907741
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -76,13 +76,11 @@ public class GameTransition : MonoBehaviour
                 SceneManager.LoadScene("BubbleWrap");
                 break;
             case '2':
-                SceneManager.LoadScene("PewPewScene");
+                SceneManager.LoadScene("BubbleShoot");
                 break;
-                /*
             case '3':
-                SceneManager.LoadScene("Shooter");
+                SceneManager.LoadScene("BubbleMaze");
                 break;
-                */
         }
     }
 }

@@ -23,7 +23,14 @@ public class MinigameOver : MonoBehaviour
         }
         else
         {
-            Text.text = "Uh-oh! You lost!";
+            if (SceneManager.GetActiveScene().name == "BubbleWrap" || SceneManager.GetActiveScene().name == "BubbleShoot")
+            {
+                Text.text = "Uh-oh! You ran out of time!";
+            }
+            else
+            {
+                Text.text = "Uh-oh! You lost!";
+            }
         }
         Invoke("ChangeScene", 2.0f);
     }
