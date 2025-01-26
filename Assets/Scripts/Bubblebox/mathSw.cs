@@ -16,6 +16,6 @@ public class mathSw : MonoBehaviour
 
     public void select()
     {
-
+        GameObject.Find("launch_bubble").GetComponent<SpriteRenderer>().color = (Color)new Color32(67, 67, 67, 255);
     }
 }

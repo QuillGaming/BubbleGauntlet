@@ -16,6 +16,6 @@ public class acidSw : MonoBehaviour
 
     public void select()
     {
-
+        GameObject.Find("launch_bubble").GetComponent<SpriteRenderer>().color = (Color)new Color32(71, 255, 87, 255);
     }
 }

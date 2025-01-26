@@ -16,6 +16,6 @@ public class coppSw : MonoBehaviour
 
     public void select()
     {
-
+        GameObject.Find("launch_bubble").GetComponent<SpriteRenderer>().color = (Color)new Color32(255, 149, 0, 255);
     }
 }
