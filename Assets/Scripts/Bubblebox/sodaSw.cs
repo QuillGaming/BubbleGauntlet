@@ -16,6 +16,6 @@ public class sodaSw : MonoBehaviour
 
     public void select()
     {
-
+        GameObject.Find("launch_bubble").GetComponent<SpriteRenderer>().color = (Color)new Color32(137, 82, 0, 255);
     }
 }

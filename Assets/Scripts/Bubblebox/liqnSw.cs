@@ -16,6 +16,6 @@ public class liqnSw : MonoBehaviour
 
     public void select()
     {
-
+        GameObject.Find("launch_bubble").GetComponent<SpriteRenderer>().color = (Color)new Color32(0, 0, 255, 255);
     }
 }

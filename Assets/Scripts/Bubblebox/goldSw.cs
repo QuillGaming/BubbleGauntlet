@@ -16,6 +16,6 @@ public class goldSw : MonoBehaviour
 
     public void select()
     {
-
+        GameObject.Find("launch_bubble").GetComponent<SpriteRenderer>().color = (Color)new Color32(255, 255, 0, 255);
     }
 }
