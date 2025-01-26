@@ -35,7 +35,7 @@ public class GameTransition : MonoBehaviour
 
             for (int j = 0; j < numGames; j++)
             {
-                if (j.ToString() != gameStr)
+                if (remainingGames[j].ToString() != gameStr)
                 {
                     gamesLeft += remainingGames[j];
                 }
@@ -43,6 +43,7 @@ public class GameTransition : MonoBehaviour
 
             PlayerPrefs.SetString("RemainingGames", gamesLeft);
             PlayerPrefs.Save();
+            Debug.Log(PlayerPrefs.GetString("RemainingGames"));
             StartCoroutine("Transition");
         }
     }
