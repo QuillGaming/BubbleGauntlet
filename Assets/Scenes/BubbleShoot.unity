@@ -220,6 +220,7 @@ GameObject:
   - component: {fileID: 27458663}
   - component: {fileID: 27458668}
   - component: {fileID: 27458667}
+  - component: {fileID: 27458669}
   m_Layer: 0
   m_Name: MobileBlubble (4)
   m_TagString: Untagged
@@ -440,6 +441,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &27458669
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27458662}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.65625
 --- !u!1 &38934849
 GameObject:
   m_ObjectHideFlags: 0
@@ -715,6 +752,7 @@ GameObject:
   - component: {fileID: 97390382}
   - component: {fileID: 97390387}
   - component: {fileID: 97390386}
+  - component: {fileID: 97390388}
   m_Layer: 0
   m_Name: MobileBlubble (2)
   m_TagString: Untagged
@@ -935,6 +973,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &97390388
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97390381}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.65625
 --- !u!1 &103844437
 GameObject:
   m_ObjectHideFlags: 0
@@ -1082,7 +1156,6 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -742968763
-  m_SortingLayer: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 0}
@@ -1362,6 +1435,7 @@ GameObject:
   - component: {fileID: 133475412}
   - component: {fileID: 133475417}
   - component: {fileID: 133475416}
+  - component: {fileID: 133475418}
   m_Layer: 0
   m_Name: MobileGrubble (2)
   m_TagString: Untagged
@@ -1582,6 +1656,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &133475418
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 133475411}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.65625
 --- !u!1 &150639542
 GameObject:
   m_ObjectHideFlags: 0
@@ -1596,6 +1706,7 @@ GameObject:
   - component: {fileID: 150639543}
   - component: {fileID: 150639548}
   - component: {fileID: 150639547}
+  - component: {fileID: 150639549}
   m_Layer: 0
   m_Name: MobileRubble (3)
   m_TagString: Untagged
@@ -1816,6 +1927,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &150639549
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 150639542}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.65625
 --- !u!114 &166592638 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 793898344656089294, guid: 01ecb09a9d0ef4948b94051a7c20d0b1, type: 3}
@@ -1926,6 +2073,7 @@ GameObject:
   - component: {fileID: 181312477}
   - component: {fileID: 181312480}
   - component: {fileID: 181312479}
+  - component: {fileID: 181312481}
   m_Layer: 0
   m_Name: Grubble (6)
   m_TagString: Untagged
@@ -2079,6 +2227,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &181312481
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181312476}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5
 --- !u!1 &186297925
 GameObject:
   m_ObjectHideFlags: 0
@@ -2180,6 +2364,7 @@ GameObject:
   - component: {fileID: 191217360}
   - component: {fileID: 191217365}
   - component: {fileID: 191217364}
+  - component: {fileID: 191217366}
   m_Layer: 0
   m_Name: MobileRubble
   m_TagString: Untagged
@@ -2400,6 +2585,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &191217366
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191217359}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.65625
 --- !u!1 &205224242
 GameObject:
   m_ObjectHideFlags: 0
@@ -2633,7 +2854,6 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -742968763
-  m_SortingLayer: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -6227307654662273113, guid: 31013247a71a7e14db43d904bd4bb942, type: 3}
@@ -2871,6 +3091,7 @@ GameObject:
   - component: {fileID: 260909529}
   - component: {fileID: 260909532}
   - component: {fileID: 260909531}
+  - component: {fileID: 260909533}
   m_Layer: 0
   m_Name: Blubble (4)
   m_TagString: Untagged
@@ -3024,6 +3245,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &260909533
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260909528}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5
 --- !u!114 &272066897 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 186203668911987011, guid: 57a8844b05eb70f4781eed16d38b3903, type: 3}
@@ -3049,6 +3306,7 @@ GameObject:
   - component: {fileID: 274691547}
   - component: {fileID: 274691552}
   - component: {fileID: 274691551}
+  - component: {fileID: 274691553}
   m_Layer: 0
   m_Name: MobileRubble (6)
   m_TagString: Untagged
@@ -3269,6 +3527,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &274691553
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274691546}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.65625
 --- !u!1 &275187187
 GameObject:
   m_ObjectHideFlags: 0
@@ -3283,6 +3577,7 @@ GameObject:
   - component: {fileID: 275187188}
   - component: {fileID: 275187193}
   - component: {fileID: 275187192}
+  - component: {fileID: 275187194}
   m_Layer: 0
   m_Name: MobileBlubble (1)
   m_TagString: Untagged
@@ -3503,6 +3798,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &275187194
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 275187187}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.65625
 --- !u!1 &276002315
 GameObject:
   m_ObjectHideFlags: 0
@@ -4296,6 +4627,7 @@ GameObject:
   - component: {fileID: 332233952}
   - component: {fileID: 332233955}
   - component: {fileID: 332233954}
+  - component: {fileID: 332233956}
   m_Layer: 0
   m_Name: Blubble (1)
   m_TagString: Untagged
@@ -4449,6 +4781,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &332233956
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332233951}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5
 --- !u!1 &344644568
 GameObject:
   m_ObjectHideFlags: 0
@@ -4462,6 +4830,7 @@ GameObject:
   - component: {fileID: 344644569}
   - component: {fileID: 344644573}
   - component: {fileID: 344644572}
+  - component: {fileID: 344644574}
   m_Layer: 0
   m_Name: Rubble (4)
   m_TagString: Untagged
@@ -4670,6 +5039,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &344644574
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344644568}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.65625
 --- !u!1 &345784719
 GameObject:
   m_ObjectHideFlags: 0
@@ -5291,6 +5696,7 @@ GameObject:
   - component: {fileID: 460664388}
   - component: {fileID: 460664391}
   - component: {fileID: 460664390}
+  - component: {fileID: 460664392}
   m_Layer: 0
   m_Name: Blubble (5)
   m_TagString: Untagged
@@ -5444,6 +5850,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &460664392
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 460664387}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5
 --- !u!1 &477411906
 GameObject:
   m_ObjectHideFlags: 0
@@ -5717,6 +6159,7 @@ GameObject:
   - component: {fileID: 566626591}
   - component: {fileID: 566626594}
   - component: {fileID: 566626593}
+  - component: {fileID: 566626595}
   m_Layer: 0
   m_Name: Blubble (2)
   m_TagString: Untagged
@@ -5870,6 +6313,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &566626595
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566626590}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5
 --- !u!1 &594440227
 GameObject:
   m_ObjectHideFlags: 0
@@ -5969,6 +6448,7 @@ GameObject:
   - component: {fileID: 595230533}
   - component: {fileID: 595230536}
   - component: {fileID: 595230535}
+  - component: {fileID: 595230537}
   m_Layer: 0
   m_Name: Blubble (10)
   m_TagString: Untagged
@@ -6122,6 +6602,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &595230537
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595230532}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5
 --- !u!1 &603501971
 GameObject:
   m_ObjectHideFlags: 0
@@ -6309,6 +6825,7 @@ GameObject:
   - component: {fileID: 609650241}
   - component: {fileID: 609650245}
   - component: {fileID: 609650244}
+  - component: {fileID: 609650246}
   m_Layer: 0
   m_Name: Rubble (2)
   m_TagString: Untagged
@@ -6517,6 +7034,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &609650246
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609650240}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.65625
 --- !u!1 &612052789
 GameObject:
   m_ObjectHideFlags: 0
@@ -6529,6 +7082,7 @@ GameObject:
   - component: {fileID: 612052790}
   - component: {fileID: 612052793}
   - component: {fileID: 612052792}
+  - component: {fileID: 612052794}
   m_Layer: 0
   m_Name: Grubble (8)
   m_TagString: Untagged
@@ -6682,6 +7236,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &612052794
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 612052789}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5
 --- !u!1 &622887782
 GameObject:
   m_ObjectHideFlags: 0
@@ -6868,6 +7458,7 @@ GameObject:
   - component: {fileID: 625512774}
   - component: {fileID: 625512777}
   - component: {fileID: 625512776}
+  - component: {fileID: 625512778}
   m_Layer: 0
   m_Name: Blubble (6)
   m_TagString: Untagged
@@ -7021,6 +7612,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &625512778
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 625512773}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5
 --- !u!1 &635743868
 GameObject:
   m_ObjectHideFlags: 0
@@ -7033,6 +7660,7 @@ GameObject:
   - component: {fileID: 635743869}
   - component: {fileID: 635743872}
   - component: {fileID: 635743871}
+  - component: {fileID: 635743873}
   m_Layer: 0
   m_Name: Blubble
   m_TagString: Untagged
@@ -7186,6 +7814,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &635743873
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 635743868}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5
 --- !u!1 &639835670
 GameObject:
   m_ObjectHideFlags: 0
@@ -7403,6 +8067,7 @@ GameObject:
   - component: {fileID: 718688843}
   - component: {fileID: 718688846}
   - component: {fileID: 718688845}
+  - component: {fileID: 718688847}
   m_Layer: 0
   m_Name: Grubble (5)
   m_TagString: Untagged
@@ -7556,6 +8221,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &718688847
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718688842}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5
 --- !u!1 &748399580
 GameObject:
   m_ObjectHideFlags: 0
@@ -7568,6 +8269,7 @@ GameObject:
   - component: {fileID: 748399581}
   - component: {fileID: 748399584}
   - component: {fileID: 748399583}
+  - component: {fileID: 748399585}
   m_Layer: 0
   m_Name: Blubble (11)
   m_TagString: Untagged
@@ -7721,6 +8423,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &748399585
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748399580}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5
 --- !u!1 &824598203
 GameObject:
   m_ObjectHideFlags: 0
@@ -7822,6 +8560,7 @@ GameObject:
   - component: {fileID: 863223971}
   - component: {fileID: 863223976}
   - component: {fileID: 863223975}
+  - component: {fileID: 863223977}
   m_Layer: 0
   m_Name: MobileRubble (7)
   m_TagString: Untagged
@@ -8042,6 +8781,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &863223977
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863223970}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.65625
 --- !u!1 &871500901
 GameObject:
   m_ObjectHideFlags: 0
@@ -8884,6 +9659,7 @@ GameObject:
   - component: {fileID: 1037727107}
   - component: {fileID: 1037727111}
   - component: {fileID: 1037727110}
+  - component: {fileID: 1037727112}
   m_Layer: 0
   m_Name: Rubble (5)
   m_TagString: Untagged
@@ -9092,6 +9868,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &1037727112
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037727106}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.65625
 --- !u!1 &1092312876
 GameObject:
   m_ObjectHideFlags: 0
@@ -9193,6 +10005,7 @@ GameObject:
   - component: {fileID: 1100609252}
   - component: {fileID: 1100609257}
   - component: {fileID: 1100609256}
+  - component: {fileID: 1100609258}
   m_Layer: 0
   m_Name: MobileGrubble (3)
   m_TagString: Untagged
@@ -9413,6 +10226,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &1100609258
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1100609251}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.65625
 --- !u!1 &1107692305
 GameObject:
   m_ObjectHideFlags: 0
@@ -9425,6 +10274,7 @@ GameObject:
   - component: {fileID: 1107692306}
   - component: {fileID: 1107692309}
   - component: {fileID: 1107692308}
+  - component: {fileID: 1107692310}
   m_Layer: 0
   m_Name: Grubble (2)
   m_TagString: Untagged
@@ -9578,6 +10428,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &1107692310
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107692305}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5
 --- !u!1 &1113717489
 GameObject:
   m_ObjectHideFlags: 0
@@ -10250,6 +11136,7 @@ GameObject:
   - component: {fileID: 1197605211}
   - component: {fileID: 1197605215}
   - component: {fileID: 1197605214}
+  - component: {fileID: 1197605216}
   m_Layer: 0
   m_Name: Rubble (7)
   m_TagString: Untagged
@@ -10458,6 +11345,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &1197605216
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197605210}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.65625
 --- !u!1 &1208980523
 GameObject:
   m_ObjectHideFlags: 0
@@ -10472,6 +11395,7 @@ GameObject:
   - component: {fileID: 1208980524}
   - component: {fileID: 1208980529}
   - component: {fileID: 1208980528}
+  - component: {fileID: 1208980530}
   m_Layer: 0
   m_Name: MobileGrubble
   m_TagString: Untagged
@@ -10692,6 +11616,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &1208980530
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208980523}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.65625
 --- !u!1 &1216173958
 GameObject:
   m_ObjectHideFlags: 0
@@ -10965,6 +11925,7 @@ GameObject:
   - component: {fileID: 1255943861}
   - component: {fileID: 1255943864}
   - component: {fileID: 1255943863}
+  - component: {fileID: 1255943865}
   m_Layer: 0
   m_Name: Grubble (12)
   m_TagString: Untagged
@@ -11118,6 +12079,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &1255943865
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255943860}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5
 --- !u!1 &1277315640
 GameObject:
   m_ObjectHideFlags: 0
@@ -11217,6 +12214,7 @@ GameObject:
   - component: {fileID: 1294827053}
   - component: {fileID: 1294827056}
   - component: {fileID: 1294827055}
+  - component: {fileID: 1294827057}
   m_Layer: 0
   m_Name: Grubble (11)
   m_TagString: Untagged
@@ -11370,6 +12368,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &1294827057
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294827052}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5
 --- !u!1 &1295610631
 GameObject:
   m_ObjectHideFlags: 0
@@ -11558,6 +12592,7 @@ GameObject:
   - component: {fileID: 1309106835}
   - component: {fileID: 1309106840}
   - component: {fileID: 1309106839}
+  - component: {fileID: 1309106841}
   m_Layer: 0
   m_Name: MobileRubble (5)
   m_TagString: Untagged
@@ -11778,6 +12813,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &1309106841
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309106834}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.65625
 --- !u!1 &1318005150
 GameObject:
   m_ObjectHideFlags: 0
@@ -11790,6 +12861,7 @@ GameObject:
   - component: {fileID: 1318005151}
   - component: {fileID: 1318005154}
   - component: {fileID: 1318005153}
+  - component: {fileID: 1318005155}
   m_Layer: 0
   m_Name: Blubble (3)
   m_TagString: Untagged
@@ -11943,6 +13015,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &1318005155
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318005150}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5
 --- !u!1 &1323832792
 GameObject:
   m_ObjectHideFlags: 0
@@ -12216,6 +13324,7 @@ GameObject:
   - component: {fileID: 1379091588}
   - component: {fileID: 1379091591}
   - component: {fileID: 1379091590}
+  - component: {fileID: 1379091592}
   m_Layer: 0
   m_Name: Grubble (9)
   m_TagString: Untagged
@@ -12369,6 +13478,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &1379091592
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379091587}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5
 --- !u!1 &1385033314
 GameObject:
   m_ObjectHideFlags: 0
@@ -12995,6 +14140,7 @@ GameObject:
   - component: {fileID: 1431328472}
   - component: {fileID: 1431328475}
   - component: {fileID: 1431328474}
+  - component: {fileID: 1431328476}
   m_Layer: 0
   m_Name: Blubble (7)
   m_TagString: Untagged
@@ -13148,6 +14294,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &1431328476
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431328471}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5
 --- !u!1 &1444040109
 GameObject:
   m_ObjectHideFlags: 0
@@ -13422,6 +14604,7 @@ GameObject:
   - component: {fileID: 1496503378}
   - component: {fileID: 1496503382}
   - component: {fileID: 1496503381}
+  - component: {fileID: 1496503383}
   m_Layer: 0
   m_Name: Rubble (6)
   m_TagString: Untagged
@@ -13630,6 +14813,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &1496503383
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496503377}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.65625
 --- !u!1 &1512215588
 GameObject:
   m_ObjectHideFlags: 0
@@ -13817,6 +15036,7 @@ GameObject:
   - component: {fileID: 1520485669}
   - component: {fileID: 1520485668}
   - component: {fileID: 1520485670}
+  - component: {fileID: 1520485671}
   m_Layer: 0
   m_Name: Grubble
   m_TagString: Untagged
@@ -14006,6 +15226,42 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0.0071138144, y: 0}
   m_Radius: 0.30792534
+--- !u!58 &1520485671
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520485665}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5
 --- !u!1 &1535004019
 GameObject:
   m_ObjectHideFlags: 0
@@ -14194,6 +15450,7 @@ GameObject:
   - component: {fileID: 1577182164}
   - component: {fileID: 1577182169}
   - component: {fileID: 1577182168}
+  - component: {fileID: 1577182170}
   m_Layer: 0
   m_Name: MobileBlubble (3)
   m_TagString: Untagged
@@ -14414,6 +15671,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &1577182170
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577182163}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.65625
 --- !u!1 &1595972679
 GameObject:
   m_ObjectHideFlags: 0
@@ -15193,6 +16486,7 @@ GameObject:
   - component: {fileID: 1715498260}
   - component: {fileID: 1715498264}
   - component: {fileID: 1715498263}
+  - component: {fileID: 1715498265}
   m_Layer: 0
   m_Name: Rubble (3)
   m_TagString: Untagged
@@ -15401,6 +16695,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &1715498265
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715498259}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.65625
 --- !u!1 &1723850626
 GameObject:
   m_ObjectHideFlags: 0
@@ -17847,6 +19177,7 @@ GameObject:
   - component: {fileID: 1730575089}
   - component: {fileID: 1730575094}
   - component: {fileID: 1730575093}
+  - component: {fileID: 1730575095}
   m_Layer: 0
   m_Name: MobileRubble (1)
   m_TagString: Untagged
@@ -18067,6 +19398,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &1730575095
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730575088}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.65625
 --- !u!1 &1751219978
 GameObject:
   m_ObjectHideFlags: 0
@@ -18080,6 +19447,7 @@ GameObject:
   - component: {fileID: 1751219982}
   - component: {fileID: 1751219984}
   - component: {fileID: 1751219983}
+  - component: {fileID: 1751219985}
   m_Layer: 0
   m_Name: Rubble
   m_TagString: Untagged
@@ -18288,6 +19656,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &1751219985
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1751219978}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.65625
 --- !u!1001 &1777656266
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18387,6 +19791,7 @@ GameObject:
   - component: {fileID: 1779158316}
   - component: {fileID: 1779158319}
   - component: {fileID: 1779158318}
+  - component: {fileID: 1779158320}
   m_Layer: 0
   m_Name: Grubble (1)
   m_TagString: Untagged
@@ -18540,6 +19945,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &1779158320
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1779158315}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5
 --- !u!1 &1779665489
 GameObject:
   m_ObjectHideFlags: 0
@@ -18894,6 +20335,7 @@ GameObject:
   - component: {fileID: 1805264929}
   - component: {fileID: 1805264934}
   - component: {fileID: 1805264933}
+  - component: {fileID: 1805264935}
   m_Layer: 0
   m_Name: MobileBlubble
   m_TagString: Untagged
@@ -19114,6 +20556,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &1805264935
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805264928}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.65625
 --- !u!1 &1808676477
 GameObject:
   m_ObjectHideFlags: 0
@@ -19128,6 +20606,7 @@ GameObject:
   - component: {fileID: 1808676478}
   - component: {fileID: 1808676483}
   - component: {fileID: 1808676482}
+  - component: {fileID: 1808676484}
   m_Layer: 0
   m_Name: MobileGrubble (1)
   m_TagString: Untagged
@@ -19348,6 +20827,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &1808676484
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808676477}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.65625
 --- !u!1 &1814327397
 GameObject:
   m_ObjectHideFlags: 0
@@ -19715,6 +21230,7 @@ GameObject:
   - component: {fileID: 1828786513}
   - component: {fileID: 1828786517}
   - component: {fileID: 1828786516}
+  - component: {fileID: 1828786518}
   m_Layer: 0
   m_Name: Rubble (1)
   m_TagString: Untagged
@@ -19923,6 +21439,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &1828786518
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828786512}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.65625
 --- !u!1 &1857263139
 GameObject:
   m_ObjectHideFlags: 0
@@ -20055,6 +21607,7 @@ GameObject:
   - component: {fileID: 1867511822}
   - component: {fileID: 1867511825}
   - component: {fileID: 1867511824}
+  - component: {fileID: 1867511826}
   m_Layer: 0
   m_Name: Grubble (10)
   m_TagString: Untagged
@@ -20208,6 +21761,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &1867511826
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867511821}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5
 --- !u!1 &1891543054
 GameObject:
   m_ObjectHideFlags: 0
@@ -20220,6 +21809,7 @@ GameObject:
   - component: {fileID: 1891543055}
   - component: {fileID: 1891543058}
   - component: {fileID: 1891543057}
+  - component: {fileID: 1891543059}
   m_Layer: 0
   m_Name: Blubble (9)
   m_TagString: Untagged
@@ -20373,6 +21963,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &1891543059
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891543054}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5
 --- !u!1 &1910437435
 GameObject:
   m_ObjectHideFlags: 0
@@ -20677,6 +22303,7 @@ GameObject:
   - component: {fileID: 1927457989}
   - component: {fileID: 1927457992}
   - component: {fileID: 1927457991}
+  - component: {fileID: 1927457993}
   m_Layer: 0
   m_Name: Grubble (4)
   m_TagString: Untagged
@@ -20830,6 +22457,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &1927457993
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927457988}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5
 --- !u!1 &1933960807
 GameObject:
   m_ObjectHideFlags: 0
@@ -21190,6 +22853,7 @@ GameObject:
   - component: {fileID: 1982694228}
   - component: {fileID: 1982694231}
   - component: {fileID: 1982694230}
+  - component: {fileID: 1982694232}
   m_Layer: 0
   m_Name: Blubble (8)
   m_TagString: Untagged
@@ -21343,6 +23007,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &1982694232
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982694227}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5
 --- !u!1 &1984052661
 GameObject:
   m_ObjectHideFlags: 0
@@ -21443,6 +23143,7 @@ GameObject:
   - component: {fileID: 1984635790}
   - component: {fileID: 1984635794}
   - component: {fileID: 1984635793}
+  - component: {fileID: 1984635795}
   m_Layer: 0
   m_Name: Rubble (8)
   m_TagString: Untagged
@@ -21651,6 +23352,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &1984635795
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984635789}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.65625
 --- !u!1 &1993595721
 GameObject:
   m_ObjectHideFlags: 0
@@ -21750,6 +23487,7 @@ GameObject:
   - component: {fileID: 1994228019}
   - component: {fileID: 1994228022}
   - component: {fileID: 1994228021}
+  - component: {fileID: 1994228023}
   m_Layer: 0
   m_Name: Grubble (3)
   m_TagString: Untagged
@@ -21903,6 +23641,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &1994228023
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994228018}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5
 --- !u!1 &2019750580
 GameObject:
   m_ObjectHideFlags: 0
@@ -21915,6 +23689,7 @@ GameObject:
   - component: {fileID: 2019750581}
   - component: {fileID: 2019750584}
   - component: {fileID: 2019750583}
+  - component: {fileID: 2019750585}
   m_Layer: 0
   m_Name: Grubble (7)
   m_TagString: Untagged
@@ -22068,6 +23843,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &2019750585
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019750580}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5
 --- !u!1 &2020750251
 GameObject:
   m_ObjectHideFlags: 0
@@ -22691,6 +24502,7 @@ GameObject:
   - component: {fileID: 2080643686}
   - component: {fileID: 2080643691}
   - component: {fileID: 2080643690}
+  - component: {fileID: 2080643692}
   m_Layer: 0
   m_Name: MobileRubble (2)
   m_TagString: Untagged
@@ -22911,6 +24723,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &2080643692
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080643685}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.65625
 --- !u!1 &2083355817
 GameObject:
   m_ObjectHideFlags: 0
@@ -22925,6 +24773,7 @@ GameObject:
   - component: {fileID: 2083355818}
   - component: {fileID: 2083355823}
   - component: {fileID: 2083355822}
+  - component: {fileID: 2083355824}
   m_Layer: 0
   m_Name: MobileRubble (4)
   m_TagString: Untagged
@@ -23145,6 +24994,42 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: dc360dc116dead445a30c0f92e08a8ba, type: 3}
   audioSource: {fileID: 0}
   counterObject: {fileID: 248555897}
+--- !u!58 &2083355824
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2083355817}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.65625
 --- !u!1 &2110131782
 GameObject:
   m_ObjectHideFlags: 0
