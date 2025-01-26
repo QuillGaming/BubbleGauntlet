@@ -5,17 +5,19 @@ using UnityEngine;
 
 public class BubbleAI : MonoBehaviour
 {
+    // public GameObject Rubble;
+    // public GameObject Blubble;
+    // public GameObject Grubble;
     private bool isMoving;
-
     private Vector2 screenBounds;
     private float width;
     private float height;
-
     private float speed;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        var position = new Vector3(Random.Range(-10.0f, 12.0f), 0, Random.Range(-5.0f, 3.0f));
         isMoving = false;
         UnityEngine.Random.InitState((int)Time.time);
 

@@ -1,3 +1,5 @@
+using System;
+using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.InputSystem;
 public class ShootyScript : MonoBehaviour
@@ -5,47 +7,39 @@ public class ShootyScript : MonoBehaviour
 
     //Wheever you end up doing audio for the projectile
     [SerializeField]
-    private AudioSource pewpew;
-    InputAction moveAction;
-    InputAction PewPewAction;
-    Rigidbody rb;
+    public AudioClip pewpew;
+    [SerializeField]
+    public AudioSource audioSource;
+    public GameObject playerShot;
+    public GameObject counterObject;
+    [SerializeField]
+    public Transform playerAim;
 
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        moveAction = InputSystem.actions.FindAction("Move");
-        PewPewAction = InputSystem.actions.FindAction("PewPew");
+        audioSource = GetComponent<AudioSource>();
     }
 
-    void Awake() {
-        rb = GetComponent<Rigidbody>();
-    }
-
-    // Update is called once per frame
     void Update()
     {
         Vector3 mousePos = Mouse.current.position.ReadValue();
         mousePos = Camera.main.ScreenToWorldPoint(mousePos);
         mousePos.z = 0;
-        // transform.position = mousePos;
-
         transform.up = mousePos - this.transform.position;
 
-        Vector2 moveValue = moveAction.ReadValue<Vector2>();
-
-        void OnMove2(InputValue value) {
-            // moveInput = value.Get<Vector2>();
-        }
-
-        void onClick() {
+        if (Mouse.current.leftButton.IsPressed()) {
             //projectile stuff here
-        }
+            GameObject newShot = Instantiate(playerShot);
+            newShot.transform.position = playerAim.position;
+            //newShot.GetComponent<playerShot>().shot = true;
+            newShot.transform.up = mousePos - this.transform.position;
 
-        if (PewPewAction.IsPressed()) {
-            /*fire projectile (instantiate projectile and give movement
-            vector based on mouse direction[position?])
-            */
+            //pretend it's always a hit
+            counterObject.GetComponent<CounterScript>().Hit = true;
+            Debug.Log("true");
+            //play sfx
+            audioSource.clip = pewpew;
+            audioSource.Play();
         }
     }
 }
