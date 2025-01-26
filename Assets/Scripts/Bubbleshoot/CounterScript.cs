@@ -17,7 +17,7 @@ public class CounterScript : MonoBehaviour
             CounterText.text += "O";
             bubblesPopped++;
 
-            if (bubblesPopped == 10 && TimerText.text != "0.00") {
+            if (bubblesPopped == 30 && TimerText.text != "0.00") {
                 GameOverObject.GetComponent<MinigameOver>().HandleGame(true);
             }
         }
