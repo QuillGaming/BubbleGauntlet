@@ -12,7 +12,7 @@ public class WinCondition : MonoBehaviour
     {
         if (Timer.GetComponent<Timer>().GetFailureStatus())
         {
-            GameOver.GetComponent<MinigameOver>().HandleGame(false);
+            GameOver.GetComponent<MinigameOver>().HandleGame(true);
         }
     }
 }

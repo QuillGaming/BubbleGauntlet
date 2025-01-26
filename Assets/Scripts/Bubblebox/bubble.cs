@@ -244,4 +244,14 @@ public class bubble : MonoBehaviour
             changeCol = true;
         }
     }
+
+    public void clearFilm()
+    {
+        isFire = false;
+        isOil = false;
+        isMethane = false;
+        isElectric = false;
+        isFrozen = false;
+        isWet = false;
+    }
 }
