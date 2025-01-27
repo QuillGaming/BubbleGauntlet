@@ -1,6 +1,3 @@
-using System;
-using JetBrains.Annotations;
-using UnityEditor.PackageManager;
 using UnityEngine;
 using UnityEngine.InputSystem;
 public class ShootyScript : MonoBehaviour
