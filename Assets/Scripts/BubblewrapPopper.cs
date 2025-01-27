@@ -9,7 +9,16 @@ public class BubblewrapPopper : MonoBehaviour
     {
         bubblesLeft = (GameObject.Find("GridGenerator").GetComponent<GenerateGrid>().bubblesToPop) + 2;
     }
-
+    public void Update() {
+        //
+        GameObject Timer = GameObject.Find("Timer");
+        GameObject GameOverCanvas = GameObject.Find("GameOver");
+        if (Timer.GetComponent<Timer>().GetFailureStatus())
+        {
+            GameOverCanvas.GetComponent<MinigameOver>().HandleGame(false);
+        }
+        //
+    }
 
     public GameObject unpopped, popped;
     public void OnMouseOver()
